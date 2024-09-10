@@ -85,6 +85,10 @@ python request_complementational_gene_discription.py \
 ## Citation
 If you find this code useful for your research, please consider citing:
 ```
-@article{
+@article{li2024scinterpreter,
+  title={scInterpreter: Training Large Language Models to Interpret scRNA-seq Data for Cell Type Annotation},
+  author={Li, Cong and Xiao, Meng and Wang, Pengfei and Feng, Guihai and Li, Xin and Zhou, Yuanchun},
+  journal={arXiv preprint arXiv:2402.12405},
+  year={2024}
 }
 ```# Prompting-Large-Language-Models-to-Interpret-scRNA-seq-Data

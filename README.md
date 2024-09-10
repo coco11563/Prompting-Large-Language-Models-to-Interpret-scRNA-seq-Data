@@ -1,4 +1,4 @@
-# Prompting Large Language Models to Interpret scRNA-seq Data
+# scInterpreter
 Large language models (LLMs) have demonstrated remarkable advancements, primarily due to their capabilities in modeling the hidden relationships within text sequences. 
 This innovation presents a unique opportunity in the field of life sciences, where vast collections of single-cell omics data from multiple species provide a foundation for training foundational models. 
 However, the challenge lies in the disparity of data scales across different species, hindering the development of a comprehensive model for interpreting genetic data across diverse organisms.
@@ -11,10 +11,10 @@ Our hybrid approach enhances the representation of single-cell data and offers a
 <div align=center><img src="img/main-all.png" alt="alt text" width="800" ></div>
 
 
-- This is the official repository of Prompting Large Language Models to Interpret scRNA-seq Data, which provides training and testing code.
+- This is the official repository of [scInterpreter](https://xxx/xxx) which provides training&testing code.
 
 ## Building Environment
-- Our code is implemented based on Pytorch. We use pytorch-2.2.1 and cuda-12.0. Another version could also be compatible. Building the environment and installing needed package. 
+- scInterpreter is implemented based on Pytorch. We use pytorch-2.2.1 and cuda-12.0. Other version could be also compatible. Building the environment and installing needed package. 
 - Run the following in shell:
 ```
 conda install python=3.11
@@ -56,9 +56,9 @@ python request_ncbi_text_for_genes.py \
 ```
 If the requesting is interrupted due to network fluctuations, simply rerun the script with the same parameters to continue from where it left off.
 
-### Request complementation gene descriptions from GPT
+### Request complementational gene discriptions from GPT
 See requesting [script](ncbi/request_complementational_gene_discription.py)  on human and mouse gene set.
-By run the following command:
+by run the following command:
 ```
 cd ncbi/
 python request_complementational_gene_discription.py \

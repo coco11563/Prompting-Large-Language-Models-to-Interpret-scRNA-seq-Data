@@ -1,0 +1,17 @@
+openai
+html2text
+mygene
+packaging==24.0
+torch==2.2.1
+transformers==4.38.2
+optimum==1.20.0
+datasets==2.18.0
+biopython==1.83
+biotite==0.39.0
+numpy==1.26.4
+pandas==2.2.1
+h5py==3.11.0
+wandb
+deepspeed==0.14.0
+matplotlib
+scikit-learn
